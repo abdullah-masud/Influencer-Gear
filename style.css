@@ -1,0 +1,105 @@
+/* -----------
+    Fonts 
+------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/*---------------- 
+common styles 
+----------------*/
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    /* font-family: 'Inter', sans-serif; */
+}
+
+
+/* ------------------
+    Header styles 
+-------------------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+.site-name h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.nav-link ul {
+    display: flex;
+}
+
+.nav-link ul li {
+    list-style: none;
+    margin-right: 34px;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.journey-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+
+.journey-info h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: -13px;
+}
+
+.journey-info p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.link-button {
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 41px;
+}
+
+.link-button p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.link-button span {
+    margin-left: 10px;
+}
+
+
+/*  */
