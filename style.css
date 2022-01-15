@@ -353,9 +353,10 @@ Media queries
 /* Mobile devices */
 
 @media only screen and (max-width: 688px) {
-    body {
+    body,
+    html {
+        max-width: 100%;
         overflow-x: hidden;
-        width: 100%;
     }
     .nav-bar {
         flex-direction: column;
@@ -403,7 +404,8 @@ Media queries
 /* tablet devices */
 
 @media only screen and (min-width:688px) and (max-width: 992px) {
-    body {
+    body,
+    html {
         overflow-x: hidden;
         width: 100%;
     }
@@ -413,6 +415,15 @@ Media queries
     .journey-section {
         width: 90%;
         flex-direction: column-reverse;
+    }
+    .journey-info {
+        text-align: center;
+    }
+    .journey-info p {
+        margin: 30px 67px;
+    }
+    .link-button {
+        margin-left: 260px;
     }
     .grid-collection {
         width: 100%;
